@@ -1,0 +1,7 @@
+import(FLCore)
+export(stdz)
+export(minMax)
+export(plotComp)
+export(plotComps)
+exportMethods(plot)
+exportMethods(diags)
