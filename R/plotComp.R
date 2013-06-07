@@ -17,7 +17,7 @@ plotComp = function(x, fn=NULL, probs=c(0.75,0.50,0.25), size=c(0.5,1.0,0.5),
 print(worm)
   if (dims(x)$iter>=length(probs)){  
     res = whooow(x,fn,probs)
-    p1  = ggplot(res) + geom_line(aes(x=year,y=data,group=iter,size=iter,lty=iter)) +
+      p1  = ggplot(res) + geom_line(aes(x=year,y=data,group=iter,size=iter,lty=iter)) +
                         scale_size_manual(    values=size, name="Quantile") +
                         scale_linetype_manual(values=lty , name="Quantile")
   }else{
