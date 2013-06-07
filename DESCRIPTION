@@ -32,7 +32,6 @@ Collate:
     'themes.R'
     'diags-FLXSA.R'
     'diags-FLSR.R'
-    'plotGlm.R'
 Maintainer: Laurie T. Kell <laurie.kell@iccat.int>, Iago Mosqueira
     <iago.mosqueira-sanchez@jrc.ec.europa.eu>
 License: GPL 2.0
