@@ -15,7 +15,7 @@ setMethod("plot", signature(x="FLStock", y="missing"),
   function(x, fn=list("SSB"=ssb, "Recruits" = rec, "Yield"=catch, F=fbar),
            probs=c(0.75,0.50,0.25), size=c(0.5,1.0,0.5), lty=c(2,1,2),
            facet=facet_wrap(~qname,scale="free"),worm=NA,...) {
-    
+  
    plotComp(x,fn=fn,probs=probs,size=size,lty=lty,facet=facet,worm=worm)
   }
 ) # }}}
